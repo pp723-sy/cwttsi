@@ -1,6 +1,6 @@
 # cwttsi
 
-CWT-TSI uses multi-node continuous wavelet images and the original node-time representation for passenger-flow forecasting. This repository provides the CWT-TSI model, dataset preprocessing, training, branch/fusion ablations, experimental settings, saved aggregate results, and figure reproduction tools.
+CWT-TSI uses multi-node continuous wavelet images and the original node-time representation for passenger-flow forecasting. This repository provides the CWT-TSI model, dataset preprocessing, training, branch/fusion ablations, experimental settings, and experiment utilities.
 
 ## Dataset source
 
@@ -8,9 +8,15 @@ The XMBRT, HZMetro, and BJMetro datasets follow the processed passenger-flow dat
 
 Lv, Q., Liu, L., Yang, R. & Wang, Y. **Multimodal urban traffic flow prediction based on multi-scale time series imaging.** *Pattern Recognition* **164**, 111499 (2025). [https://doi.org/10.1016/j.patcog.2025.111499](https://doi.org/10.1016/j.patcog.2025.111499).
 
-This citation identifies the dataset source followed in our study. Please consult that paper and the original data providers for access and applicable use terms. This repository does not redistribute raw passenger-flow observations or claim that the authors of CWT-TSI collected these datasets.
+Dataset access provided by the MM-TSI authors:
 
-This package contains the CWT-TSI model and its three ablation variants, aggregate experiment results, and figure replay. It does not contain other researchers' model implementations or their locally modified baseline versions. Raw data, target/prediction arrays, checkpoints and font files are excluded. Baseline comparison CSVs contain reported numerical results only.
+- [MM-TSI author repository](https://github.com/lvqinzhi/MM-TSI) — see its "Getting started / Download Data" section.
+- [MM-TSI dataset download on Google Drive](https://drive.google.com/drive/folders/1DtLKnZl2Td6jXK7vOsTxn0y-3o1q5DwT?usp=drive_link) — the link published in that repository.
+- [MM-TSI paper](https://doi.org/10.1016/j.patcog.2025.111499).
+
+Please cite Lv et al. when using the datasets obtained from their distribution. The download link is maintained by the MM-TSI authors; CWT-TSI links to that source without rehosting the data. This citation identifies the dataset source followed in our study. Please consult the paper and original data providers for applicable use terms. This repository does not redistribute raw passenger-flow observations or claim that the authors of CWT-TSI collected these datasets.
+
+This package contains the CWT-TSI model, its three ablation variants, preprocessing, training and experiment utilities. Manuscript figures, table-input files and saved metric directories are omitted from this code release. It does not contain other researchers' model implementations or their locally modified baseline versions. Raw data, target/prediction arrays, checkpoints and font files are excluded.
 
 ## Environment and external dependency
 
@@ -33,17 +39,15 @@ Historical settings: 12 input/output steps, batch 16, learning rate 0.001, maxim
 
 Reported results use chronological `window_ratio` splits with shared target times at adjacent boundaries. This release does not claim target-disjoint evaluation. `target_time` is available for new experiments but does not harmonize old loss/regularization settings. HZMetro full/ablation results require removing the first test window for common-test alignment. Saved runs are single runs, not repeated random seeds. Labels STSGCN-L/SyncG4 denote local simplified baselines; their implementations are outside this release.
 
-`saved_metrics/` and sanitized `run_index.json` describe all 33 archived experiments. The 24 comparison and 12 ablation table rows reuse three full-model runs. Checkpoint paths refer to the private archive. Full/ablation checkpoints store whole model objects; only trusted author-local files should be loaded with `weights_only=False`.
+`run_index.json` records the 12 archived own-model/ablation runs used by the command printer. Checkpoint paths refer to the private author archive; checkpoint files are not included. Full/ablation checkpoints store whole model objects; only trusted author-local files should be loaded with `weights_only=False`.
 
-## Verification and figure replay
+## Code checks and author-local archive verification
 
 ```sh
 python -m unittest discover -s tests -v
-python submission_tools/verify_saved_results.py --archive /path/to/authorized_archive --output verification_output
-python -m pip install -r requirements-plot.txt
-python figures_ch4/source/replay_figures.py --group all --output replay_output
+python submission_tools/print_retraining_commands.py
 ```
 
-Full numerical verification needs archive directories `datasets/`, `save/`, `ts2img/`, `manuscript_data/`. The result verifier does not require baseline implementations. Figure replay uses included aggregate CSV/JSON inputs, without raw observations or checkpoints. Matplotlib draws figures5–7/9–10; Pillow draws8/11. Raster plots prefer Windows Arial; other systems use fonts provided by installed Matplotlib. Font/version differences can change pixels, which the helper reports with a nonzero exit. Existing selected figure outputs are protected. Original `figures_ch4/Fig*.png` files provide the references.
+`submission_tools/verify_saved_results.py --archive /path/to/authorized_archive --output verification_output` is an optional author-local numerical audit. It requires a separate complete archive containing `datasets/`, `save/`, `ts2img/` and manuscript table inputs. Those archive contents are not part of this release; this command is not required to train the model. The experiment summary/export and plotting utilities likewise read outputs generated locally by training or supplied from the author archive.
 
-See `AUDIT_SUMMARY.md`, `THIRD_PARTY_NOTICES.md` and `release_inventory.json`. No project-wide reuse license has been selected. External building blocks are documented and not bundled. No long retraining or new reported scientific results were created. `FIGURE_NUMBERING.md` maps the archived plotting names to the reorganized Scientific Reports main and supplementary displays.
+See `AUDIT_SUMMARY.md`, `THIRD_PARTY_NOTICES.md` and `release_inventory.json`. No project-wide reuse license has been selected. External building blocks are documented and not bundled. No long retraining or new reported scientific results were created.

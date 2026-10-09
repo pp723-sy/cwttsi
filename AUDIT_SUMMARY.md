@@ -1,6 +1,6 @@
 # Release audit summary (2026-10-09)
 
-Scope: own CWT-TSI model, preprocessing, training/ablations, saved aggregate outputs and figure replay. Baseline implementations, vendor sources, fonts, restricted raw arrays and all weights are excluded.
+Current release scope (v1.0.1): own CWT-TSI model, preprocessing, training/ablations and experiment utilities. Manuscript figure/table inputs and saved metric directories are omitted. The own-run index retains 12 entries. The numerical and figure checks below describe the retained private archive and the original packaging audit; they do not imply that archive outputs are included in this reduced release. Model/training/preprocessing code was not changed. Baseline implementations, vendor sources, fonts, restricted raw arrays and all weights are excluded.
 
 Verified in the existing author environment: 174/174 archived numerical checks; 33/33 trusted private checkpoint loads and finite synthetic forecasts; all best epochs match saved validation-loss argmin. After externalizing the 8 upstream SSTBAN building blocks, 12/12 own-model state dictionaries loaded strictly and every model produced bit-identical outputs for 2 genuine archived test inputs (maximum difference 0). This is a finite-sample compatibility check, not an entire test-set replay or proof about every future input. The final external temporal branch gradient test and checkpoint resume test pass. Final CLI help and 12-command printing pass. Final figure replay: all 7 PNGs match archived bytes and pixels in the author environment.
 

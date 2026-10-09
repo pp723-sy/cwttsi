@@ -2,267 +2,141 @@
   "copied_files": [
     {
       "path": "build_transit_dataset.py",
-      "source": "代码与复现实验_当前33组/build_transit_dataset.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/build_transit_dataset.py",
       "sha256": "bbb84c81f05f8196e45b889d9dccaa6404f8477bb38c5e9a1371b17a74c19ddc",
       "bytes": 12141
     },
     {
       "path": "build_xmbrt_hzmetro_bjmetro_dataset.py",
-      "source": "代码与复现实验_当前33组/build_xmbrt_hzmetro_bjmetro_dataset.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/build_xmbrt_hzmetro_bjmetro_dataset.py",
       "sha256": "17617440b3126ff073529870e8f8da81b0f86f6ae79602fdb596beb64ae2d3af",
       "bytes": 13562
     },
     {
       "path": "experiment_protocol.py",
-      "source": "代码与复现实验_当前33组/experiment_protocol.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/experiment_protocol.py",
       "sha256": "aa0a1006709861c01bcd2a2338fd3672b6cb7e2fdfc9033da6814b50904a87bd",
       "bytes": 1617
     },
     {
       "path": "export_comparison_wide_excel.py",
-      "source": "代码与复现实验_当前33组/export_comparison_wide_excel.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/export_comparison_wide_excel.py",
       "sha256": "f278c8ba09228969af27ad8d84be09dd3ab1f55cc8bf885aa4088071d8ae51ed",
       "bytes": 12403
     },
     {
       "path": "export_experiment_results_excel.py",
-      "source": "代码与复现实验_当前33组/export_experiment_results_excel.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/export_experiment_results_excel.py",
       "sha256": "ae436e8ad4a6afbc5c24b3abfffbdfaad54ab8bd963fb6b3309c8f0d56412793",
       "bytes": 9575
     },
     {
       "path": "load_data.py",
-      "source": "代码与复现实验_当前33组/load_data.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/load_data.py",
       "sha256": "9add91a41fb7608ab3b632fe80aeafcdd0dd6a7a8753104bf87b3bf0e10f9435",
       "bytes": 5441
     },
     {
       "path": "model_convnext_stban.py",
-      "source": "代码与复现实验_当前33组/model_convnext_stban.py",
-      "sha256": "de28dd019bb27ac880e90798df40c29508dc29018e50b52367291a9d33e8fd46",
-      "bytes": 20984
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/model_convnext_stban.py",
+      "sha256": "5b391fa235bae8057a1b3c0b9ac79b2d2644711c2fd4ce5f975a0d7bded9c6a1",
+      "bytes": 13726
     },
     {
       "path": "plot-43.py",
-      "source": "代码与复现实验_当前33组/plot-43.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/plot-43.py",
       "sha256": "6d8b55d33bee302d4324c066bea5235c7cb71aaf9e62d2a0590dd345712e6d49",
       "bytes": 4459
     },
     {
       "path": "plot-loss.py",
-      "source": "代码与复现实验_当前33组/plot-loss.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/plot-loss.py",
       "sha256": "5765e2abf601021ec26613cffa05542794739c8c1d168f04d391d6fd80b114a4",
       "bytes": 4736
     },
     {
       "path": "run_ablation_experiments.py",
-      "source": "代码与复现实验_当前33组/run_ablation_experiments.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/run_ablation_experiments.py",
       "sha256": "adb9e7108ccbde4458c8d33a812a3713c75ab8a7189ceaf8575b57318dc7696b",
       "bytes": 6496
     },
     {
       "path": "summarize_comparison_experiments.py",
-      "source": "代码与复现实验_当前33组/summarize_comparison_experiments.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/summarize_comparison_experiments.py",
       "sha256": "8ab9cb609749ea08f03d98ffcde3036e2d6d595e0e9b8027229812d047f09baf",
       "bytes": 9820
     },
     {
       "path": "summarize_experiments.py",
-      "source": "代码与复现实验_当前33组/summarize_experiments.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/summarize_experiments.py",
       "sha256": "07598f91669dd02fff0c128cd3652ef55b9faacfdd822558b4062ee58497c0a0",
       "bytes": 14081
     },
     {
       "path": "train.py",
-      "source": "代码与复现实验_当前33组/train.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/train.py",
       "sha256": "cfee7823cd4b822e3f3392bb100afcf07dc4ad59d3eb62c0418ceed6bca3dc30",
       "bytes": 20324
     },
     {
       "path": "training_checkpoint.py",
-      "source": "代码与复现实验_当前33组/training_checkpoint.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/training_checkpoint.py",
       "sha256": "1e89ede1f7e0ee71c86bd2c200d47c16154298562fc36e747954099cdb2cb339",
       "bytes": 1206
     },
     {
       "path": "utils/logger.py",
-      "source": "代码与复现实验_当前33组/utils/logger.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/utils/logger.py",
       "sha256": "eb24b3027114db1be154044602041c3c1f41d7f1efec0efc89a9111648b4cae2",
       "bytes": 364
     },
     {
       "path": "utils/metrics.py",
-      "source": "代码与复现实验_当前33组/utils/metrics.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/utils/metrics.py",
       "sha256": "b04f726e4d1efbb54db5a78113d3b4c0a96674cf0202b4395a78cfaf72aedc7f",
       "bytes": 968
     },
     {
       "path": "utils/multi_epoch_dataloader.py",
-      "source": "代码与复现实验_当前33组/utils/multi_epoch_dataloader.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/utils/multi_epoch_dataloader.py",
       "sha256": "bd6aa85cd196fa9ca4eecff6a06fa10ba0528bf4d5c5d5bf14053327f983de45",
       "bytes": 716
     },
     {
       "path": "utils/random_seed.py",
-      "source": "代码与复现实验_当前33组/utils/random_seed.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/utils/random_seed.py",
       "sha256": "d8f696620a09c4e6ef95600df3a25380dfa0e79ab3e96dfcd746039a64b53cfe",
       "bytes": 542
     },
     {
       "path": "utils/__init__.py",
-      "source": "代码与复现实验_当前33组/utils/__init__.py",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/utils/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0
     },
     {
       "path": "submission_tools/print_retraining_commands.py",
-      "source": "代码与复现实验_当前33组/submission_tools/print_retraining_commands.py",
-      "sha256": "fb82867e1bd10e0e1002c39e66c79388d42a7a8eb58dc7b133f587cf6132f0e8",
-      "bytes": 1660
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/submission_tools/print_retraining_commands.py",
+      "sha256": "7dd6c0b2819cd0569e1370dcc7e48890c859a72882f6ed76dd2a614533e8a740",
+      "bytes": 1095
     },
     {
       "path": "submission_tools/verify_saved_results.py",
-      "source": "代码与复现实验_当前33组/submission_tools/verify_saved_results.py",
-      "sha256": "b8d7d3def6d86215c8b57985546eea6c503f2ef83718f27d4e696df5cc662be7",
-      "bytes": 6169
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/submission_tools/verify_saved_results.py",
+      "sha256": "7f024b85a71387364a360a1a9eba40669148d1fb17a8a123a9b2f3789e0de454",
+      "bytes": 6604
     },
     {
       "path": "tests/test_training_checkpoint.py",
-      "source": "代码与复现实验_当前33组/tests/test_training_checkpoint.py",
-      "sha256": "602d1748301ac3943c94b2b08233e61002922ba4bf85f16a4eca5101e6164775",
-      "bytes": 1978
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/tests/test_training_checkpoint.py",
+      "sha256": "4a0526823bafdfc2e05438dd2cd4f9ec29070bda6a1856c9d531d972f5e02d7e",
+      "bytes": 2017
     },
     {
       "path": "requirements.txt",
-      "source": "代码与复现实验_当前33组/requirements.txt",
+      "source": "\u4ee3\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c_\u5f53\u524d33\u7ec4/requirements.txt",
       "sha256": "33bda341b046bc55fd4b86832bfe6b7b252f80a15dce5156587b11e7d3354d72",
       "bytes": 247
-    },
-    {
-      "path": "manuscript_data/ablation_table_common_test.csv",
-      "source": "代码与复现实验_当前33组/manuscript_data/ablation_table_common_test.csv",
-      "sha256": "154bcb4454ba9bf59c7354ba6143b52cdeda0ecbbdc1a42f4f740cbc21c12f7d",
-      "bytes": 1187
-    },
-    {
-      "path": "manuscript_data/comparison_updated.csv",
-      "source": "代码与复现实验_当前33组/manuscript_data/comparison_updated.csv",
-      "sha256": "8c0323b8636a52679b7f47854317eb336d38968de506c971ebc03a27869a88b9",
-      "bytes": 2859
-    },
-    {
-      "path": "manuscript_data/Editable_Tables/Table01.csv",
-      "source": "代码与复现实验_当前33组/manuscript_data/Editable_Tables/Table01.csv",
-      "sha256": "d206913ba9bdc5808468e0be7b44e37e3810439a90442b70619a8e246bfca2cf",
-      "bytes": 223
-    },
-    {
-      "path": "manuscript_data/Editable_Tables/Table02.csv",
-      "source": "代码与复现实验_当前33组/manuscript_data/Editable_Tables/Table02.csv",
-      "sha256": "1d947ce32311b6a54247273010320ee11bc4502686fe28d4e29ac76c84bbb08d",
-      "bytes": 785
-    },
-    {
-      "path": "manuscript_data/Editable_Tables/Table03.csv",
-      "source": "代码与复现实验_当前33组/manuscript_data/Editable_Tables/Table03.csv",
-      "sha256": "37c3a1268ba3cb8d38209e9b62066e5a1ae8dc85a6c3f8413e738469ba315697",
-      "bytes": 507
-    },
-    {
-      "path": "manuscript_data/Editable_Tables/Table04.csv",
-      "source": "代码与复现实验_当前33组/manuscript_data/Editable_Tables/Table04.csv",
-      "sha256": "caf1e139cdc27bb47b46dd833928f3c515f5fae8c85d7022910d29e79e6f9b29",
-      "bytes": 168
-    },
-    {
-      "path": "figures_ch4/source/replay_figures.py",
-      "source": "ch4_img/source/replay_figures.py",
-      "sha256": "2153eeed8dceaaff0bfddc80080f3e7d92c4fa501162d2eaf54dbc56bcc6cf53",
-      "bytes": 6955
-    },
-    {
-      "path": "figures_ch4/source/fig05_07/plots.py",
-      "source": "ch4_img/source/fig05_07/plots.py",
-      "sha256": "9964ff690b71ba4fb207f35c971e88986baff312cadf36cc706a326216bcc016",
-      "bytes": 5494
-    },
-    {
-      "path": "figures_ch4/source/fig05_07/results.py",
-      "source": "ch4_img/source/fig05_07/results.py",
-      "sha256": "734ffeeb35fc92a49694ee543c75515a07eb56adb91fd69494b79dae1b08c280",
-      "bytes": 6246
-    },
-    {
-      "path": "figures_ch4/source/fig08_11/adjust_original_ch4_labels.py",
-      "source": "ch4_img/source/fig08_11/adjust_original_ch4_labels.py",
-      "sha256": "fabb2055055aa669d8de355094f084c9b030125c9c986c653f63d8e0486b40d3",
-      "bytes": 5030
-    },
-    {
-      "path": "figures_ch4/source/fig08_11/chapter4_revision.py",
-      "source": "ch4_img/source/fig08_11/chapter4_revision.py",
-      "sha256": "eaa8012e3e7c486c8cc6a1108d85e1409873e0ded307d34089b6fc424a0cc9e2",
-      "bytes": 50976
-    },
-    {
-      "path": "figures_ch4/source/fig09_10/plots.py",
-      "source": "ch4_img/source/fig09_10/plots.py",
-      "sha256": "74fd8841fed5ddbc140a0c50cf2d04f07f4428c07ae8f95a0906a565d0cfd9e8",
-      "bytes": 5064
-    },
-    {
-      "path": "figures_ch4/data/ablation_display_names.csv",
-      "source": "ch4_img/data/ablation_display_names.csv",
-      "sha256": "b5fb56523a42bfe9822b549e18e8289326161b1b958c53757fa8defb3b139a2e",
-      "bytes": 679
-    },
-    {
-      "path": "figures_ch4/data/ablation_relative_change_heatmap.csv",
-      "source": "ch4_img/data/ablation_relative_change_heatmap.csv",
-      "sha256": "e6784e61a44fa9a1671ae12056cc28ea5ee31f7e8e03a946b4b685e782bddc67",
-      "bytes": 685
-    },
-    {
-      "path": "figures_ch4/data/ablation_table_common_test.csv",
-      "source": "ch4_img/data/ablation_table_common_test.csv",
-      "sha256": "154bcb4454ba9bf59c7354ba6143b52cdeda0ecbbdc1a42f4f740cbc21c12f7d",
-      "bytes": 1187
-    },
-    {
-      "path": "figures_ch4/data/comparison_updated.csv",
-      "source": "ch4_img/data/comparison_updated.csv",
-      "sha256": "8c0323b8636a52679b7f47854317eb336d38968de506c971ebc03a27869a88b9",
-      "bytes": 2859
-    },
-    {
-      "path": "figures_ch4/data/fig08_fig11_evidence.json",
-      "source": "ch4_img/data/fig08_fig11_evidence.json",
-      "sha256": "2b7f59c614a20c0629597d67df18ef272d464551e54819e0a52ef67735c709bb",
-      "bytes": 13842
-    },
-    {
-      "path": "figures_ch4/data/improvement.csv",
-      "source": "ch4_img/data/improvement.csv",
-      "sha256": "f67d4cd4e73b4e4e5548f913a1fdabb3252b26f2e5468673892c0c365bc8023f",
-      "bytes": 665
-    },
-    {
-      "path": "figures_ch4/data/rankings.csv",
-      "source": "ch4_img/data/rankings.csv",
-      "sha256": "5b92c8e168f29e9ebd423fe5f3e219ce1d4d903a282668f60e50a7b72ba4d634",
-      "bytes": 1704
-    },
-    {
-      "path": "figures_ch4/data/summary.json",
-      "source": "ch4_img/data/summary.json",
-      "sha256": "12b4af4ba4564f9301770025dab07c64e342caa882c3532bb65817806b27250f",
-      "bytes": 3291
-    },
-    {
-      "path": "figures_ch4/manifest.json",
-      "source": "ch4_img/manifest.json",
-      "sha256": "812a5d446299b9a3813b864f1dda564dc1308be7f86fba58a3914fa05097bada",
-      "bytes": 45490
     }
   ],
   "portability_modified_plot_sources": [],
@@ -274,8 +148,8 @@
     "external_sstban.py (new)",
     "submission_tools/verify_saved_results.py",
     "submission_tools/print_retraining_commands.py",
-    "figures_ch4/source/replay_figures.py",
     "tests/test_training_checkpoint.py",
     "tests/test_external_sstban.py (new)"
-  ]
+  ],
+  "release_scope": "v1.0.1: own model/preprocessing/training/ablations; figures/table inputs/saved metric directories excluded; run index restricted to 12 own runs."
 }
