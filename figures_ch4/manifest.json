@@ -1,0 +1,947 @@
+{
+  "checked_at": "2026-10-03",
+  "manuscript": "[local path omitted]",
+  "manuscript_sha256": "4aee4379c1e1bd343e506c5a879becbc150291eb33f3f55afef0e975f3271f0e",
+  "chapter": "4 Experiments",
+  "figure_count": 7,
+  "png_count": 7,
+  "svg_count": 5,
+  "pdf_count": 5,
+  "figure_numbers": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "selection_rule": "以用户指定英文稿内嵌PNG逐字节相同为首要条件，再用绘图记录和项目历史对话验证对应生成版本；不按文件修改时间盲选。",
+  "project_search": {
+    "asset_counts": {
+      "png": 1025,
+      "svg": 95,
+      "pdf": 105
+    },
+    "skipped_dependency_directories": [
+      ".git",
+      ".venv",
+      "__pycache__",
+      "node_modules",
+      "plot_packages",
+      "vendor",
+      "venv"
+    ],
+    "read_errors": []
+  },
+  "figures": [
+    {
+      "figure": 5,
+      "paragraph": 119,
+      "caption_paragraph": 120,
+      "section": "4.3 Overall Forecasting Results",
+      "part": "word/media/image5.png",
+      "caption": "Figure 5. Forecasting errors of the seven baseline implementations and CWT-TSI on the three datasets. Rows and columns correspond to datasets and metrics, respectively. Pale rose bars denote CWT-TSI, gray-green bars denote the best baseline for each metric, and pale gray-blue bars denote the remaining baselines. Dark borders and bold values indicate the lowest errors. Each panel has an independent vertical scale starting at zero.",
+      "sha256": "c95a9714de44006a53f292d166bdb0e98273d8e093eeadc20df098ba79bf2fda",
+      "bytes": 803431,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        6120,
+        3900
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "整体预测误差",
+      "files": [
+        "Fig05_整体预测误差_ASTGNN更新.pdf",
+        "Fig05_整体预测误差_ASTGNN更新.png",
+        "Fig05_整体预测误差_ASTGNN更新.svg"
+      ],
+      "formats": [
+        "pdf",
+        "png",
+        "svg"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-09-30 ASTGNN补跑更新",
+      "generation_code": "source/fig05_07/plots.py",
+      "plot_inputs": [
+        "data/comparison_updated.csv"
+      ],
+      "svg_status": "矢量SVG，文字可编辑",
+      "svg_sha256": "523313ca89e313aee9c2ee7ad0fa6787a7494daf59352eb9d7456fbf4262dff7",
+      "svg_raster_images": 0,
+      "png_exact_manuscript_match": true
+    },
+    {
+      "figure": 6,
+      "paragraph": 122,
+      "caption_paragraph": 123,
+      "section": "4.3 Overall Forecasting Results",
+      "part": "word/media/image6.png",
+      "caption": "Figure 6. Rankings of the models by dataset and metric. Each column is ranked independently within the same dataset and metric, with 1 denoting the lowest error. The gray-rose border marks the CWT-TSI row.",
+      "sha256": "b57e9be7c08292b87a4a9887504cf65e6ac49739f35748029dfd71ecddd81532",
+      "bytes": 279123,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        6120,
+        2784
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "模型指标排名",
+      "files": [
+        "Fig06_模型指标排名_ASTGNN更新.pdf",
+        "Fig06_模型指标排名_ASTGNN更新.png",
+        "Fig06_模型指标排名_ASTGNN更新.svg"
+      ],
+      "formats": [
+        "pdf",
+        "png",
+        "svg"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-09-30 ASTGNN补跑更新",
+      "generation_code": "source/fig05_07/plots.py",
+      "plot_inputs": [
+        "data/comparison_updated.csv",
+        "data/rankings.csv"
+      ],
+      "svg_status": "SVG容器；热图和色条为内嵌位图，文字与轮廓可编辑",
+      "svg_sha256": "d3f1fd524e3e5721e9bc4e1110aabf5565f2f7c42b4b63df8a4f8922acd633a1",
+      "svg_raster_images": 2,
+      "png_exact_manuscript_match": true
+    },
+    {
+      "figure": 7,
+      "paragraph": 125,
+      "caption_paragraph": 126,
+      "section": "4.3 Overall Forecasting Results",
+      "part": "word/media/image7.png",
+      "caption": "Figure 7. Percentage error reductions of CWT-TSI relative to Graph WaveNet. Each reduction is computed as the baseline error minus the CWT-TSI error, divided by the Graph WaveNet error and multiplied by 100%. Positive values indicate lower errors, and negative values indicate higher errors. The horizontal axis lists the datasets, and lines facilitate comparison of the same metric across datasets.",
+      "sha256": "803dfecb871720dfffe736b6bd6657f05309d823f47b6443c5ed29cb1d1638bb",
+      "bytes": 322098,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        6120,
+        2340
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "相对GraphWaveNet误差降幅",
+      "files": [
+        "Fig07_相对误差降幅_ASTGNN更新.pdf",
+        "Fig07_相对误差降幅_ASTGNN更新.png",
+        "Fig07_相对误差降幅_ASTGNN更新.svg"
+      ],
+      "formats": [
+        "pdf",
+        "png",
+        "svg"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-09-30 ASTGNN补跑更新",
+      "generation_code": "source/fig05_07/plots.py",
+      "plot_inputs": [
+        "data/comparison_updated.csv",
+        "data/summary.json",
+        "data/improvement.csv"
+      ],
+      "svg_status": "矢量SVG，文字可编辑",
+      "svg_sha256": "7e4c86d0d05abfb6eeeda9b5561108693351c5ee808874dd71ee32bf44b745df",
+      "svg_raster_images": 0,
+      "png_exact_manuscript_match": true
+    },
+    {
+      "figure": 8,
+      "paragraph": 131,
+      "caption_paragraph": 132,
+      "section": "4.4 Errors across Forecasting Horizons",
+      "part": "word/media/image8.png",
+      "caption": "Figure 8. MAE, RMSE, and MAPE of CWT-TSI over 12 forecasting steps. Rows and columns correspond to datasets and metrics, respectively, and each panel has an independent vertical scale. Horizontal dashed lines denote the overall metrics in Table 2, aggregated over all prediction elements. Overall RMSE is computed from the aggregated squared errors.",
+      "sha256": "7aade197908e0981d04017e919cfe6b5591ccefd54a3e75654738df38bbbacb8",
+      "bytes": 231453,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        3600,
+        3000
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "逐步预测误差",
+      "files": [
+        "Fig08_逐步预测误差.png"
+      ],
+      "formats": [
+        "png"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-09-24 原图文字标注调整；数据与曲线沿用原始实验",
+      "generation_code": "source/fig08_11/adjust_original_ch4_labels.py + chapter4_revision.py",
+      "plot_inputs": [
+        "data/fig08_fig11_evidence.json"
+      ],
+      "svg_status": "无原生SVG；Pillow栅格绘制",
+      "svg_sha256": null,
+      "svg_raster_images": null,
+      "png_exact_manuscript_match": true
+    },
+    {
+      "figure": 9,
+      "paragraph": 141,
+      "caption_paragraph": 142,
+      "section": "4.5 Ablation Analysis of Branches and Fusion",
+      "part": "word/media/image9.png",
+      "caption": "Figure 9. Dot plots of errors for the branch and prediction-fusion ablations. The labels w/o Image, w/o TS, and w/o Learnable Fusion denote removal of the image branch, removal of the time-series branch, and replacement of learnable fusion with fixed equal-weight fusion, respectively. Rows and columns correspond to datasets and metrics. Point positions represent error values, and bold values and dark borders indicate the lowest errors. Each panel has an independent horizontal scale, with numerical values listed to the right of each row.",
+      "sha256": "172fba3a33d12c6455f04bd1556eb12f320b3e8af1bd6770861427a393598c2c",
+      "bytes": 629947,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        7080,
+        4200
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "消融预测误差",
+      "files": [
+        "Fig09_消融误差_w_o命名.pdf",
+        "Fig09_消融误差_w_o命名.png",
+        "Fig09_消融误差_w_o命名.svg"
+      ],
+      "formats": [
+        "pdf",
+        "png",
+        "svg"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-10-01 w/o消融名称统一",
+      "generation_code": "source/fig09_10/plots.py",
+      "plot_inputs": [
+        "data/ablation_table_common_test.csv"
+      ],
+      "svg_status": "矢量SVG，文字可编辑",
+      "svg_sha256": "53d2cbd06df53c033a4d4a4418a3211fe7b74acd374c90a97e5d63d7471a6a8d",
+      "svg_raster_images": 0,
+      "png_exact_manuscript_match": true
+    },
+    {
+      "figure": 10,
+      "paragraph": 143,
+      "caption_paragraph": 144,
+      "section": "4.5 Ablation Analysis of Branches and Fusion",
+      "part": "word/media/image10.png",
+      "caption": "Figure 10. Percentage error changes of the ablation variants relative to the full model. Each value is computed as the variant error minus the full-model error, divided by the full-model error and multiplied by 100%. Positive values indicate higher errors for the variant, and negative values indicate lower errors. All columns share the same color scale, and values are rounded to 1 decimal place. The color scale is centered at zero, with muted contrasting colors for positive and negative changes.",
+      "sha256": "f5c3964a9013a960d8186e29e9e4f42faaa8e2ffd28d1b0c2c214146fd58e20e",
+      "bytes": 287990,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        7080,
+        1860
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "消融相对误差变化",
+      "files": [
+        "Fig10_消融相对误差_w_o命名.pdf",
+        "Fig10_消融相对误差_w_o命名.png",
+        "Fig10_消融相对误差_w_o命名.svg"
+      ],
+      "formats": [
+        "pdf",
+        "png",
+        "svg"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-10-01 w/o消融名称统一",
+      "generation_code": "source/fig09_10/plots.py",
+      "plot_inputs": [
+        "data/ablation_table_common_test.csv",
+        "data/ablation_relative_change_heatmap.csv"
+      ],
+      "svg_status": "SVG容器；热图和色条为内嵌位图，文字与轮廓可编辑",
+      "svg_sha256": "2dd492eb8c4c29e8b3c34eac6fcdf936a24fac1374ae38e44118dc02a7cef1d4",
+      "svg_raster_images": 2,
+      "png_exact_manuscript_match": true
+    },
+    {
+      "figure": 11,
+      "paragraph": 148,
+      "caption_paragraph": 149,
+      "section": "4.6 Optimization Process",
+      "part": "word/media/image11.png",
+      "caption": "Figure 11. Training and validation Huber losses of CWT-TSI on the three datasets. Blue and red curves represent training and validation losses, respectively. The curves are unsmoothed, and each panel has an independent vertical scale.",
+      "sha256": "a493e2cf4b717c9401bd99d7b9bbb8754c0b190189e92d8810cdfbb5716c4f6b",
+      "bytes": 102413,
+      "extracted": "[local path omitted]",
+      "pixels": [
+        3600,
+        1220
+      ],
+      "exact_matches": [
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]",
+        "[local path omitted]"
+      ],
+      "title_zh": "训练与验证损失",
+      "files": [
+        "Fig11_训练验证损失.png"
+      ],
+      "formats": [
+        "png"
+      ],
+      "selected_source": "[local path omitted]",
+      "version": "2026-09-24 原图文字标注调整；数据与曲线沿用原始实验",
+      "generation_code": "source/fig08_11/adjust_original_ch4_labels.py + chapter4_revision.py",
+      "plot_inputs": [
+        "data/fig08_fig11_evidence.json"
+      ],
+      "svg_status": "无原生SVG；Pillow栅格绘制",
+      "svg_sha256": null,
+      "svg_raster_images": null,
+      "png_exact_manuscript_match": true
+    }
+  ],
+  "prior_release_comparison": [
+    {
+      "figure": 5,
+      "old_path": "[local path omitted]",
+      "old_sha256": "37853c1a0daf3c64f0eeb9ad70fbbb62f54ee237d4c3dac0208e3f4637972534",
+      "matches_current_english": false,
+      "reason": "旧版：现稿已更新ASTGNN/对照命名或消融命名及图形呈现"
+    },
+    {
+      "figure": 6,
+      "old_path": "[local path omitted]",
+      "old_sha256": "35a1670175c1c6f643c2e5dfcaec74240343b24a8843bcd9ca3f8104f2c8cc9a",
+      "matches_current_english": false,
+      "reason": "旧版：现稿已更新ASTGNN/对照命名或消融命名及图形呈现"
+    },
+    {
+      "figure": 7,
+      "old_path": "[local path omitted]",
+      "old_sha256": "db53ec4bd4a8ea0a734d3b664915d77eef3e0852b9d3e44dcce7960f28211cee",
+      "matches_current_english": false,
+      "reason": "旧版：现稿已更新ASTGNN/对照命名或消融命名及图形呈现"
+    },
+    {
+      "figure": 8,
+      "old_path": "[local path omitted]",
+      "old_sha256": "7aade197908e0981d04017e919cfe6b5591ccefd54a3e75654738df38bbbacb8",
+      "matches_current_english": true,
+      "reason": "仍与现稿一致"
+    },
+    {
+      "figure": 9,
+      "old_path": "[local path omitted]",
+      "old_sha256": "e139713d81663b3043cd62f2a1436fec1370adea87d0cdd5aa569acd97c16c0b",
+      "matches_current_english": false,
+      "reason": "旧版：现稿已更新ASTGNN/对照命名或消融命名及图形呈现"
+    },
+    {
+      "figure": 10,
+      "old_path": "[local path omitted]",
+      "old_sha256": "a16c9f44844e8ead9b7138706dc678daf67cbec119fcab09277b14856f4fe6b4",
+      "matches_current_english": false,
+      "reason": "旧版：现稿已更新ASTGNN/对照命名或消融命名及图形呈现"
+    },
+    {
+      "figure": 11,
+      "old_path": "[local path omitted]",
+      "old_sha256": "a493e2cf4b717c9401bd99d7b9bbb8754c0b190189e92d8810cdfbb5716c4f6b",
+      "matches_current_english": true,
+      "reason": "仍与现稿一致"
+    }
+  ],
+  "copied_files": [
+    {
+      "file": "Fig05_整体预测误差_ASTGNN更新.pdf",
+      "source": "[local path omitted]",
+      "sha256": "9d4062c9efab563401173a111f7cd7e2c03d304b936d50cea14519bc4a2406e5",
+      "bytes": 27174
+    },
+    {
+      "file": "Fig05_整体预测误差_ASTGNN更新.png",
+      "source": "[local path omitted]",
+      "sha256": "c95a9714de44006a53f292d166bdb0e98273d8e093eeadc20df098ba79bf2fda",
+      "bytes": 803431
+    },
+    {
+      "file": "Fig05_整体预测误差_ASTGNN更新.svg",
+      "source": "[local path omitted]",
+      "sha256": "523313ca89e313aee9c2ee7ad0fa6787a7494daf59352eb9d7456fbf4262dff7",
+      "bytes": 80928
+    },
+    {
+      "file": "Fig06_模型指标排名_ASTGNN更新.pdf",
+      "source": "[local path omitted]",
+      "sha256": "b9baf6cecdf2d885564623464d98cf48f8a0c4b064e6e0d95367f4739de7b2a1",
+      "bytes": 36515
+    },
+    {
+      "file": "Fig06_模型指标排名_ASTGNN更新.png",
+      "source": "[local path omitted]",
+      "sha256": "b57e9be7c08292b87a4a9887504cf65e6ac49739f35748029dfd71ecddd81532",
+      "bytes": 279123
+    },
+    {
+      "file": "Fig06_模型指标排名_ASTGNN更新.svg",
+      "source": "[local path omitted]",
+      "sha256": "d3f1fd524e3e5721e9bc4e1110aabf5565f2f7c42b4b63df8a4f8922acd633a1",
+      "bytes": 107200
+    },
+    {
+      "file": "Fig07_相对误差降幅_ASTGNN更新.pdf",
+      "source": "[local path omitted]",
+      "sha256": "fafff40d26839a04c8e38079e5f97428d25b881fc15ce24f010711dbf14265a6",
+      "bytes": 19941
+    },
+    {
+      "file": "Fig07_相对误差降幅_ASTGNN更新.png",
+      "source": "[local path omitted]",
+      "sha256": "803dfecb871720dfffe736b6bd6657f05309d823f47b6443c5ed29cb1d1638bb",
+      "bytes": 322098
+    },
+    {
+      "file": "Fig07_相对误差降幅_ASTGNN更新.svg",
+      "source": "[local path omitted]",
+      "sha256": "7e4c86d0d05abfb6eeeda9b5561108693351c5ee808874dd71ee32bf44b745df",
+      "bytes": 11590
+    },
+    {
+      "file": "Fig08_逐步预测误差.png",
+      "source": "[local path omitted]",
+      "sha256": "7aade197908e0981d04017e919cfe6b5591ccefd54a3e75654738df38bbbacb8",
+      "bytes": 231453
+    },
+    {
+      "file": "Fig09_消融误差_w_o命名.pdf",
+      "source": "[local path omitted]",
+      "sha256": "fd8faa7c11cc93083afda9c1bd9d67132b2f080a22ade6f2ab929b4953bd12e8",
+      "bytes": 26533
+    },
+    {
+      "file": "Fig09_消融误差_w_o命名.png",
+      "source": "[local path omitted]",
+      "sha256": "172fba3a33d12c6455f04bd1556eb12f320b3e8af1bd6770861427a393598c2c",
+      "bytes": 629947
+    },
+    {
+      "file": "Fig09_消融误差_w_o命名.svg",
+      "source": "[local path omitted]",
+      "sha256": "53d2cbd06df53c033a4d4a4418a3211fe7b74acd374c90a97e5d63d7471a6a8d",
+      "bytes": 51458
+    },
+    {
+      "file": "Fig10_消融相对误差_w_o命名.pdf",
+      "source": "[local path omitted]",
+      "sha256": "235d5cd049426731c262b72db2e103f6d568d5acb8df99d71ce170cef7423a6f",
+      "bytes": 32954
+    },
+    {
+      "file": "Fig10_消融相对误差_w_o命名.png",
+      "source": "[local path omitted]",
+      "sha256": "f5c3964a9013a960d8186e29e9e4f42faaa8e2ffd28d1b0c2c214146fd58e20e",
+      "bytes": 287990
+    },
+    {
+      "file": "Fig10_消融相对误差_w_o命名.svg",
+      "source": "[local path omitted]",
+      "sha256": "2dd492eb8c4c29e8b3c34eac6fcdf936a24fac1374ae38e44118dc02a7cef1d4",
+      "bytes": 73043
+    },
+    {
+      "file": "Fig11_训练验证损失.png",
+      "source": "[local path omitted]",
+      "sha256": "a493e2cf4b717c9401bd99d7b9bbb8754c0b190189e92d8810cdfbb5716c4f6b",
+      "bytes": 102413
+    },
+    {
+      "file": "source/fig05_07/plots.py",
+      "source": "[local path omitted]",
+      "sha256": "9964ff690b71ba4fb207f35c971e88986baff312cadf36cc706a326216bcc016",
+      "bytes": 5494
+    },
+    {
+      "file": "source/fig05_07/results.py",
+      "source": "[local path omitted]",
+      "sha256": "734ffeeb35fc92a49694ee543c75515a07eb56adb91fd69494b79dae1b08c280",
+      "bytes": 6246
+    },
+    {
+      "file": "source/fig09_10/plots.py",
+      "source": "[local path omitted]",
+      "sha256": "74fd8841fed5ddbc140a0c50cf2d04f07f4428c07ae8f95a0906a565d0cfd9e8",
+      "bytes": 5064
+    },
+    {
+      "file": "source/fig08_11/adjust_original_ch4_labels.py",
+      "source": "[local path omitted]",
+      "sha256": "fabb2055055aa669d8de355094f084c9b030125c9c986c653f63d8e0486b40d3",
+      "bytes": 5030
+    },
+    {
+      "file": "source/fig08_11/chapter4_revision.py",
+      "source": "[local path omitted]",
+      "sha256": "eaa8012e3e7c486c8cc6a1108d85e1409873e0ded307d34089b6fc424a0cc9e2",
+      "bytes": 50976
+    },
+    {
+      "file": "data/comparison_updated.csv",
+      "source": "[local path omitted]",
+      "sha256": "8c0323b8636a52679b7f47854317eb336d38968de506c971ebc03a27869a88b9",
+      "bytes": 2859
+    },
+    {
+      "file": "data/rankings.csv",
+      "source": "[local path omitted]",
+      "sha256": "5b92c8e168f29e9ebd423fe5f3e219ce1d4d903a282668f60e50a7b72ba4d634",
+      "bytes": 1704
+    },
+    {
+      "file": "data/improvement.csv",
+      "source": "[local path omitted]",
+      "sha256": "f67d4cd4e73b4e4e5548f913a1fdabb3252b26f2e5468673892c0c365bc8023f",
+      "bytes": 665
+    },
+    {
+      "file": "data/summary.json",
+      "source": "[local path omitted]",
+      "sha256": "12b4af4ba4564f9301770025dab07c64e342caa882c3532bb65817806b27250f",
+      "bytes": 3291
+    },
+    {
+      "file": "data/ablation_table_common_test.csv",
+      "source": "[local path omitted]",
+      "sha256": "154bcb4454ba9bf59c7354ba6143b52cdeda0ecbbdc1a42f4f740cbc21c12f7d",
+      "bytes": 1187
+    },
+    {
+      "file": "data/ablation_relative_change_heatmap.csv",
+      "source": "[local path omitted]",
+      "sha256": "e6784e61a44fa9a1671ae12056cc28ea5ee31f7e8e03a946b4b685e782bddc67",
+      "bytes": 685
+    },
+    {
+      "file": "data/fig08_fig11_evidence.json",
+      "source": "[local path omitted]",
+      "sha256": "2b7f59c614a20c0629597d67df18ef272d464551e54819e0a52ef67735c709bb",
+      "bytes": 13842
+    },
+    {
+      "file": "data/ablation_display_names.csv",
+      "source": "[local path omitted]",
+      "sha256": "b5fb56523a42bfe9822b549e18e8289326161b1b958c53757fa8defb3b139a2e",
+      "bytes": 679
+    },
+    {
+      "file": "data/raw_records/common_test_alignment_audit.json",
+      "source": "[local path omitted]",
+      "sha256": "07b06ca2f516a15fafcefc2eb0f6816ed0ea5d4e3540cbb3c88c9667b76f0182",
+      "bytes": 9999
+    },
+    {
+      "file": "data/raw_records/xmbrt_full/metrics.json",
+      "source": "[local path omitted]",
+      "sha256": "0481064b038af06789a0fefbf0096aee8c90694cb1446fc86dbe63fb79020c18",
+      "bytes": 4205
+    },
+    {
+      "file": "data/raw_records/xmbrt_full/history.npz",
+      "source": "[local path omitted]",
+      "sha256": "ba7c5facbd5cefa9bf5d9cd050754bfd15abdd9a97576f93f4468e9b85a476bc",
+      "bytes": 970
+    },
+    {
+      "file": "data/raw_records/hzmetro_full/metrics.json",
+      "source": "[local path omitted]",
+      "sha256": "17c2b04e552bb35459b7663e1d92d840af2034b43314983a2033c81a851c378a",
+      "bytes": 4370
+    },
+    {
+      "file": "data/raw_records/hzmetro_full/history.npz",
+      "source": "[local path omitted]",
+      "sha256": "c2e0e8292f2d5d93891cb90965dec805b1e6820be1d0b1c08e7a8a24f32bca67",
+      "bytes": 1002
+    },
+    {
+      "file": "data/raw_records/bjmetro_full/metrics.json",
+      "source": "[local path omitted]",
+      "sha256": "40b82ed12507500b9e39d67ab1b30d83e0288cddb3e5792ee2184a6a39468be7",
+      "bytes": 6385
+    },
+    {
+      "file": "data/raw_records/bjmetro_full/history.npz",
+      "source": "[local path omitted]",
+      "sha256": "61882256056c21d835a12b02e34cda04d985031c8b91fe5000be2a238433d450",
+      "bytes": 1658
+    },
+    {
+      "file": "核验记录/项目对话版本证据.json",
+      "source": "[local path omitted]",
+      "sha256": "6f9da7de454822e27e818cec286dc7eb844506f6a88405bfd8075d1225f0f15e",
+      "bytes": 16033
+    },
+    {
+      "file": "核验记录/原交付图源核验清单_20261001.json",
+      "source": "[local path omitted]",
+      "sha256": "ed1f65e71f6456f4c62f23ab836fd86f27e2a35cb66f0c7c39b26dc3cdde4852",
+      "bytes": 7316
+    },
+    {
+      "file": "核验记录/原消融绘图记录_20261001.json",
+      "source": "[local path omitted]",
+      "sha256": "634dcf8c9714718193f945d8d635ba80e3a2da181d99fe70f241ae1c5d75c042",
+      "bytes": 895
+    },
+    {
+      "file": "核验记录/原ASTGNN绘图记录_20260930.json",
+      "source": "[local path omitted]",
+      "sha256": "f3b0e7d29b5535949fb4e7eedea3a47ccac6e622adcb54492936b2795a2bd2c1",
+      "bytes": 894
+    },
+    {
+      "file": "核验记录/原图8图11标注调整记录_20260924.json",
+      "source": "[local path omitted]",
+      "sha256": "e7b5a1d6c37d1cff37ef81e3c0082460219313dc9dd4d6a7b678e1a16281eb47",
+      "bytes": 1363
+    },
+    {
+      "file": "核验记录/原实验数据核对_20261001.json",
+      "source": "[local path omitted]",
+      "sha256": "ff4573c55fb6d21bdd131b516b4ad9df31fbb64ba6095f2cccaa7b2a7ea93a52",
+      "bytes": 18409
+    }
+  ],
+  "delivery_verification": "核验记录/本次最终核验.json",
+  "replay_helper_added": "source/replay_figures.py",
+  "supplemental_font_sources": {
+    "DejaVuSans-Bold.ttf": "[local path omitted]",
+    "DejaVuSans.ttf": "[local path omitted]",
+    "LICENSE_DEJAVU": "[local path omitted]"
+  },
+  "delivery_files": [
+    {
+      "file": "data/ablation_display_names.csv",
+      "sha256": "b5fb56523a42bfe9822b549e18e8289326161b1b958c53757fa8defb3b139a2e",
+      "bytes": 679
+    },
+    {
+      "file": "data/ablation_relative_change_heatmap.csv",
+      "sha256": "e6784e61a44fa9a1671ae12056cc28ea5ee31f7e8e03a946b4b685e782bddc67",
+      "bytes": 685
+    },
+    {
+      "file": "data/ablation_table_common_test.csv",
+      "sha256": "154bcb4454ba9bf59c7354ba6143b52cdeda0ecbbdc1a42f4f740cbc21c12f7d",
+      "bytes": 1187
+    },
+    {
+      "file": "data/comparison_updated.csv",
+      "sha256": "8c0323b8636a52679b7f47854317eb336d38968de506c971ebc03a27869a88b9",
+      "bytes": 2859
+    },
+    {
+      "file": "data/fig08_fig11_evidence.json",
+      "sha256": "2b7f59c614a20c0629597d67df18ef272d464551e54819e0a52ef67735c709bb",
+      "bytes": 13842
+    },
+    {
+      "file": "data/improvement.csv",
+      "sha256": "f67d4cd4e73b4e4e5548f913a1fdabb3252b26f2e5468673892c0c365bc8023f",
+      "bytes": 665
+    },
+    {
+      "file": "data/rankings.csv",
+      "sha256": "5b92c8e168f29e9ebd423fe5f3e219ce1d4d903a282668f60e50a7b72ba4d634",
+      "bytes": 1704
+    },
+    {
+      "file": "data/raw_records/bjmetro_full/history.npz",
+      "sha256": "61882256056c21d835a12b02e34cda04d985031c8b91fe5000be2a238433d450",
+      "bytes": 1658
+    },
+    {
+      "file": "data/raw_records/bjmetro_full/metrics.json",
+      "sha256": "40b82ed12507500b9e39d67ab1b30d83e0288cddb3e5792ee2184a6a39468be7",
+      "bytes": 6385
+    },
+    {
+      "file": "data/raw_records/common_test_alignment_audit.json",
+      "sha256": "07b06ca2f516a15fafcefc2eb0f6816ed0ea5d4e3540cbb3c88c9667b76f0182",
+      "bytes": 9999
+    },
+    {
+      "file": "data/raw_records/hzmetro_full/history.npz",
+      "sha256": "c2e0e8292f2d5d93891cb90965dec805b1e6820be1d0b1c08e7a8a24f32bca67",
+      "bytes": 1002
+    },
+    {
+      "file": "data/raw_records/hzmetro_full/metrics.json",
+      "sha256": "17c2b04e552bb35459b7663e1d92d840af2034b43314983a2033c81a851c378a",
+      "bytes": 4370
+    },
+    {
+      "file": "data/raw_records/xmbrt_full/history.npz",
+      "sha256": "ba7c5facbd5cefa9bf5d9cd050754bfd15abdd9a97576f93f4468e9b85a476bc",
+      "bytes": 970
+    },
+    {
+      "file": "data/raw_records/xmbrt_full/metrics.json",
+      "sha256": "0481064b038af06789a0fefbf0096aee8c90694cb1446fc86dbe63fb79020c18",
+      "bytes": 4205
+    },
+    {
+      "file": "data/summary.json",
+      "sha256": "12b4af4ba4564f9301770025dab07c64e342caa882c3532bb65817806b27250f",
+      "bytes": 3291
+    },
+    {
+      "file": "Fig05_整体预测误差_ASTGNN更新.pdf",
+      "sha256": "9d4062c9efab563401173a111f7cd7e2c03d304b936d50cea14519bc4a2406e5",
+      "bytes": 27174
+    },
+    {
+      "file": "Fig05_整体预测误差_ASTGNN更新.png",
+      "sha256": "c95a9714de44006a53f292d166bdb0e98273d8e093eeadc20df098ba79bf2fda",
+      "bytes": 803431
+    },
+    {
+      "file": "Fig05_整体预测误差_ASTGNN更新.svg",
+      "sha256": "523313ca89e313aee9c2ee7ad0fa6787a7494daf59352eb9d7456fbf4262dff7",
+      "bytes": 80928
+    },
+    {
+      "file": "Fig06_模型指标排名_ASTGNN更新.pdf",
+      "sha256": "b9baf6cecdf2d885564623464d98cf48f8a0c4b064e6e0d95367f4739de7b2a1",
+      "bytes": 36515
+    },
+    {
+      "file": "Fig06_模型指标排名_ASTGNN更新.png",
+      "sha256": "b57e9be7c08292b87a4a9887504cf65e6ac49739f35748029dfd71ecddd81532",
+      "bytes": 279123
+    },
+    {
+      "file": "Fig06_模型指标排名_ASTGNN更新.svg",
+      "sha256": "d3f1fd524e3e5721e9bc4e1110aabf5565f2f7c42b4b63df8a4f8922acd633a1",
+      "bytes": 107200
+    },
+    {
+      "file": "Fig07_相对误差降幅_ASTGNN更新.pdf",
+      "sha256": "fafff40d26839a04c8e38079e5f97428d25b881fc15ce24f010711dbf14265a6",
+      "bytes": 19941
+    },
+    {
+      "file": "Fig07_相对误差降幅_ASTGNN更新.png",
+      "sha256": "803dfecb871720dfffe736b6bd6657f05309d823f47b6443c5ed29cb1d1638bb",
+      "bytes": 322098
+    },
+    {
+      "file": "Fig07_相对误差降幅_ASTGNN更新.svg",
+      "sha256": "7e4c86d0d05abfb6eeeda9b5561108693351c5ee808874dd71ee32bf44b745df",
+      "bytes": 11590
+    },
+    {
+      "file": "Fig08_逐步预测误差.png",
+      "sha256": "7aade197908e0981d04017e919cfe6b5591ccefd54a3e75654738df38bbbacb8",
+      "bytes": 231453
+    },
+    {
+      "file": "Fig09_消融误差_w_o命名.pdf",
+      "sha256": "fd8faa7c11cc93083afda9c1bd9d67132b2f080a22ade6f2ab929b4953bd12e8",
+      "bytes": 26533
+    },
+    {
+      "file": "Fig09_消融误差_w_o命名.png",
+      "sha256": "172fba3a33d12c6455f04bd1556eb12f320b3e8af1bd6770861427a393598c2c",
+      "bytes": 629947
+    },
+    {
+      "file": "Fig09_消融误差_w_o命名.svg",
+      "sha256": "53d2cbd06df53c033a4d4a4418a3211fe7b74acd374c90a97e5d63d7471a6a8d",
+      "bytes": 51458
+    },
+    {
+      "file": "Fig10_消融相对误差_w_o命名.pdf",
+      "sha256": "235d5cd049426731c262b72db2e103f6d568d5acb8df99d71ce170cef7423a6f",
+      "bytes": 32954
+    },
+    {
+      "file": "Fig10_消融相对误差_w_o命名.png",
+      "sha256": "f5c3964a9013a960d8186e29e9e4f42faaa8e2ffd28d1b0c2c214146fd58e20e",
+      "bytes": 287990
+    },
+    {
+      "file": "Fig10_消融相对误差_w_o命名.svg",
+      "sha256": "2dd492eb8c4c29e8b3c34eac6fcdf936a24fac1374ae38e44118dc02a7cef1d4",
+      "bytes": 73043
+    },
+    {
+      "file": "Fig11_训练验证损失.png",
+      "sha256": "a493e2cf4b717c9401bd99d7b9bbb8754c0b190189e92d8810cdfbb5716c4f6b",
+      "bytes": 102413
+    },
+    {
+      "file": "fonts/DejaVuSans-Bold.ttf",
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "bytes": 704128
+    },
+    {
+      "file": "fonts/DejaVuSans.ttf",
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "bytes": 756072
+    },
+    {
+      "file": "fonts/LICENSE_DEJAVU",
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "bytes": 4816
+    },
+    {
+      "file": "README.md",
+      "sha256": "08f463ee39a4e492f96e1ca41b4888ff07952e07c52e97eafaa0c0e7e0095bd4",
+      "bytes": 6877
+    },
+    {
+      "file": "source/fig05_07/plots.py",
+      "sha256": "9964ff690b71ba4fb207f35c971e88986baff312cadf36cc706a326216bcc016",
+      "bytes": 5494
+    },
+    {
+      "file": "source/fig05_07/results.py",
+      "sha256": "734ffeeb35fc92a49694ee543c75515a07eb56adb91fd69494b79dae1b08c280",
+      "bytes": 6246
+    },
+    {
+      "file": "source/fig08_11/adjust_original_ch4_labels.py",
+      "sha256": "fabb2055055aa669d8de355094f084c9b030125c9c986c653f63d8e0486b40d3",
+      "bytes": 5030
+    },
+    {
+      "file": "source/fig08_11/chapter4_revision.py",
+      "sha256": "eaa8012e3e7c486c8cc6a1108d85e1409873e0ded307d34089b6fc424a0cc9e2",
+      "bytes": 50976
+    },
+    {
+      "file": "source/fig09_10/plots.py",
+      "sha256": "74fd8841fed5ddbc140a0c50cf2d04f07f4428c07ae8f95a0906a565d0cfd9e8",
+      "bytes": 5064
+    },
+    {
+      "file": "source/replay_figures.py",
+      "sha256": "2153eeed8dceaaff0bfddc80080f3e7d92c4fa501162d2eaf54dbc56bcc6cf53",
+      "bytes": 6955
+    },
+    {
+      "file": "插图对应清单.csv",
+      "sha256": "c8eb42c00f6fb35bdc5359d86ff70933a4ea7b62e877aab8a91b6f05d7f5b674",
+      "bytes": 3856
+    },
+    {
+      "file": "核验记录/全项目图源检索记录.json",
+      "sha256": "8e4b9fd13b03c33a455c4b48b3a0700783d4b9909f2fb6e45dc6d0b8da121d4c",
+      "bytes": 549831
+    },
+    {
+      "file": "核验记录/原ASTGNN绘图记录_20260930.json",
+      "sha256": "f3b0e7d29b5535949fb4e7eedea3a47ccac6e622adcb54492936b2795a2bd2c1",
+      "bytes": 894
+    },
+    {
+      "file": "核验记录/原交付图源核验清单_20261001.json",
+      "sha256": "ed1f65e71f6456f4c62f23ab836fd86f27e2a35cb66f0c7c39b26dc3cdde4852",
+      "bytes": 7316
+    },
+    {
+      "file": "核验记录/原图8图11标注调整记录_20260924.json",
+      "sha256": "e7b5a1d6c37d1cff37ef81e3c0082460219313dc9dd4d6a7b678e1a16281eb47",
+      "bytes": 1363
+    },
+    {
+      "file": "核验记录/原实验数据核对_20261001.json",
+      "sha256": "ff4573c55fb6d21bdd131b516b4ad9df31fbb64ba6095f2cccaa7b2a7ea93a52",
+      "bytes": 18409
+    },
+    {
+      "file": "核验记录/原消融绘图记录_20261001.json",
+      "sha256": "634dcf8c9714718193f945d8d635ba80e3a2da181d99fe70f241ae1c5d75c042",
+      "bytes": 895
+    },
+    {
+      "file": "核验记录/图5至图7代码重放核验.json",
+      "sha256": "eb36235ee0b662c2245ccb323699cc56294e06c10ecd8c66a5a761a6564f1b07",
+      "bytes": 1235
+    },
+    {
+      "file": "核验记录/图8图11代码重放核验.json",
+      "sha256": "9ec5a861e6ce6fad36ccf731af5ea1f839a91a5925b60c21dfae2edb239edd09",
+      "bytes": 811
+    },
+    {
+      "file": "核验记录/图9图10代码重放核验.json",
+      "sha256": "017581fdef99e856e3500dd1507fbdfe97c28969c5c26b379ea86ff6fdcb50f8",
+      "bytes": 882
+    },
+    {
+      "file": "核验记录/本次最终核验.json",
+      "sha256": "1774385694ddff004fa1d6adedd18c91b2dc3fae7300599824dadb8211d36fd2",
+      "bytes": 5689
+    },
+    {
+      "file": "核验记录/项目对话版本证据.json",
+      "sha256": "6f9da7de454822e27e818cec286dc7eb844506f6a88405bfd8075d1225f0f15e",
+      "bytes": 16033
+    },
+    {
+      "file": "英文稿第四章图注.txt",
+      "sha256": "43e319b76feb594931355e45150cee7b8998fe729c011a1c0027a481defbf731",
+      "bytes": 2945
+    }
+  ]
+}

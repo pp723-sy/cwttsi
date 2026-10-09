@@ -1,0 +1,4 @@
+﻿Dataset,Concatenated length,Coefficient matrix size,Image storage (MiB)
+XMBRT,528,128 × 528,134.28
+HZMetro,960,128 × 960,174.78
+BJMetro,3312,128 × 3312,83.66

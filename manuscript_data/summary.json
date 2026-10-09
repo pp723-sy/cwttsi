@@ -1,0 +1,121 @@
+{
+  "cwt_wins": 8,
+  "cwt_mean_rank": 1.1111111111111112,
+  "by_dataset": {
+    "XMBRT": {
+      "mae": {
+        "dataset": "XMBRT",
+        "metric": "mae",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 5.3991,
+        "cwt_error": 5.3655,
+        "improve_pct": 0.622325943212755,
+        "cwt_rank": 1
+      },
+      "rmse": {
+        "dataset": "XMBRT",
+        "metric": "rmse",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 8.6264,
+        "cwt_error": 8.742,
+        "improve_pct": -1.3400723360845845,
+        "cwt_rank": 2
+      },
+      "mape": {
+        "dataset": "XMBRT",
+        "metric": "mape",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 39.8716,
+        "cwt_error": 35.7134,
+        "improve_pct": 10.428977016222074,
+        "cwt_rank": 1
+      }
+    },
+    "HZMetro": {
+      "mae": {
+        "dataset": "HZMetro",
+        "metric": "mae",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 11.4999,
+        "cwt_error": 10.77734005007319,
+        "improve_pct": 6.283184635751699,
+        "cwt_rank": 1
+      },
+      "rmse": {
+        "dataset": "HZMetro",
+        "metric": "rmse",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 19.6906,
+        "cwt_error": 17.839604696770106,
+        "improve_pct": 9.400400715213827,
+        "cwt_rank": 1
+      },
+      "mape": {
+        "dataset": "HZMetro",
+        "metric": "mape",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 26.7891,
+        "cwt_error": 24.21267896060173,
+        "improve_pct": 9.617422904831715,
+        "cwt_rank": 1
+      }
+    },
+    "BJMetro": {
+      "mae": {
+        "dataset": "BJMetro",
+        "metric": "mae",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 22.7451,
+        "cwt_error": 16.8717,
+        "improve_pct": 25.822704670456492,
+        "cwt_rank": 1
+      },
+      "rmse": {
+        "dataset": "BJMetro",
+        "metric": "rmse",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 39.9612,
+        "cwt_error": 29.8812,
+        "improve_pct": 25.22446773370169,
+        "cwt_rank": 1
+      },
+      "mape": {
+        "dataset": "BJMetro",
+        "metric": "mape",
+        "best_comparator": "GraphWaveNet",
+        "best_error": 32.7342,
+        "cwt_error": 18.6053,
+        "improve_pct": 43.16250282579077,
+        "cwt_rank": 1
+      }
+    }
+  },
+  "astgnn": [
+    {
+      "dataset": "XMBRT",
+      "mae": 6.029769918851822,
+      "rmse": 10.183382639088752,
+      "mape": 45.52492562972761,
+      "best_epoch": 92,
+      "trained_epochs": 100
+    },
+    {
+      "dataset": "HZMetro",
+      "mae": 11.653932508596323,
+      "rmse": 20.442932321356043,
+      "mape": 29.078221704100915,
+      "best_epoch": 92,
+      "trained_epochs": 100
+    },
+    {
+      "dataset": "BJMetro",
+      "mae": 27.222246666495757,
+      "rmse": 58.08321289022356,
+      "mape": 39.22803353407747,
+      "best_epoch": 95,
+      "trained_epochs": 100
+    }
+  ],
+  "retained_numeric_rows_unchanged": true,
+  "rounding": "new ASTGNN recomputed in float64; displayed to 4 decimals; other rows preserved; Improve uses displayed values"
+}

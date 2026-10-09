@@ -1,0 +1,4 @@
+﻿Dataset,Nodes,Time steps,Windows,Interval (min),Training windows,Validation windows¹,Test windows²
+XMBRT,44,4320,4297,5,2578,859,860
+HZMetro,80,5616,5593,5,3355,1118/1119,1119
+BJMetro,276,2700,2677,10,1606,535,536
