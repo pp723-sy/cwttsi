@@ -1,494 +1,50 @@
 [
   {
     "dataset": "XMBRT",
-    "run": "xmbrt_full",
-    "display_model": "CWT-TSI",
-    "input_prediction_shape": [
-      37840,
-      12
-    ],
-    "test_samples": 860,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 5.3655,
-      "rmse": 8.742,
-      "mape": 35.7134
-    },
-    "recalculated_fp32": {
-      "mae": 5.365501880645752,
-      "rmse": 8.742020606994629,
-      "mape": 35.7133903503418
-    },
-    "recalculated_fp64": {
-      "mae": 5.365502610905562,
-      "rmse": 8.742003108469852,
-      "mape": 35.7133907612606
-    },
-    "best_epoch_recorded": 8,
-    "argmin_val_loss_epoch": 8,
-    "epochs_completed": 28,
-    "checkpoint": "save/xmbrt_full/8.pt",
-    "checkpoint_bytes": 126982619,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "xmbrt_full"
   },
   {
     "dataset": "HZMetro",
-    "run": "hzmetro_full",
-    "display_model": "CWT-TSI",
-    "input_prediction_shape": [
-      89600,
-      12
-    ],
-    "test_samples": 1119,
-    "removed_first_windows": 1,
-    "table_metrics": {
-      "mae": 10.77734005007319,
-      "rmse": 17.839604696770106,
-      "mape": 24.21267896060173
-    },
-    "recalculated_fp32": {
-      "mae": 10.77733325958252,
-      "rmse": 17.83979034423828,
-      "mape": 24.212677001953125
-    },
-    "recalculated_fp64": {
-      "mae": 10.77734005007319,
-      "rmse": 17.839604696770106,
-      "mape": 24.21267896060173
-    },
-    "best_epoch_recorded": 10,
-    "argmin_val_loss_epoch": 10,
-    "epochs_completed": 30,
-    "checkpoint": "save/hzmetro_full/10.pt",
-    "checkpoint_bytes": 128994745,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "hzmetro_full"
   },
   {
     "dataset": "BJMetro",
-    "run": "bjmetro_full",
-    "display_model": "CWT-TSI",
-    "input_prediction_shape": [
-      147936,
-      12
-    ],
-    "test_samples": 536,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 16.8717,
-      "rmse": 29.8812,
-      "mape": 18.6053
-    },
-    "recalculated_fp32": {
-      "mae": 16.87165641784668,
-      "rmse": 29.8812313079834,
-      "mape": 18.605331420898438
-    },
-    "recalculated_fp64": {
-      "mae": 16.871705738681065,
-      "rmse": 29.881292337028896,
-      "mape": 18.60533172715938
-    },
-    "best_epoch_recorded": 51,
-    "argmin_val_loss_epoch": 51,
-    "epochs_completed": 71,
-    "checkpoint": "save/bjmetro_full/51.pt",
-    "checkpoint_bytes": 139887289,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "bjmetro_full"
   },
   {
     "dataset": "XMBRT",
-    "run": "xmbrt_no_img",
-    "display_model": "No-Img",
-    "input_prediction_shape": [
-      37840,
-      12
-    ],
-    "test_samples": 860,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 5.405,
-      "rmse": 8.7892,
-      "mape": 36.5203
-    },
-    "recalculated_fp32": {
-      "mae": 5.405019760131836,
-      "rmse": 8.789162635803223,
-      "mape": 36.52035140991211
-    },
-    "recalculated_fp64": {
-      "mae": 5.40502165780259,
-      "rmse": 8.789106330961225,
-      "mape": 36.52034705236953
-    },
-    "best_epoch_recorded": 8,
-    "argmin_val_loss_epoch": 8,
-    "epochs_completed": 28,
-    "checkpoint": "save/xmbrt_no_img/8.pt",
-    "checkpoint_bytes": 14035323,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "xmbrt_no_img"
   },
   {
     "dataset": "XMBRT",
-    "run": "xmbrt_no_ts",
-    "display_model": "No-TS",
-    "input_prediction_shape": [
-      37840,
-      12
-    ],
-    "test_samples": 860,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 5.3821,
-      "rmse": 8.7475,
-      "mape": 36.3389
-    },
-    "recalculated_fp32": {
-      "mae": 5.382103443145752,
-      "rmse": 8.747544288635254,
-      "mape": 36.33892059326172
-    },
-    "recalculated_fp64": {
-      "mae": 5.382104035236672,
-      "rmse": 8.747519341523322,
-      "mape": 36.33892011007581
-    },
-    "best_epoch_recorded": 97,
-    "argmin_val_loss_epoch": 97,
-    "epochs_completed": 100,
-    "checkpoint": "save/xmbrt_no_ts/97.pt",
-    "checkpoint_bytes": 112948382,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "xmbrt_no_ts"
   },
   {
     "dataset": "XMBRT",
-    "run": "xmbrt_no_fuse",
-    "display_model": "No-Fuse",
-    "input_prediction_shape": [
-      37840,
-      12
-    ],
-    "test_samples": 860,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 5.398,
-      "rmse": 8.8604,
-      "mape": 36.6204
-    },
-    "recalculated_fp32": {
-      "mae": 5.398046016693115,
-      "rmse": 8.860382080078125,
-      "mape": 36.62040710449219
-    },
-    "recalculated_fp64": {
-      "mae": 5.398043038594714,
-      "rmse": 8.86036438131814,
-      "mape": 36.62040587105399
-    },
-    "best_epoch_recorded": 11,
-    "argmin_val_loss_epoch": 11,
-    "epochs_completed": 31,
-    "checkpoint": "save/xmbrt_no_fuse/11.pt",
-    "checkpoint_bytes": 126983929,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "xmbrt_no_fuse"
   },
   {
     "dataset": "HZMetro",
-    "run": "hzmetro_no_img",
-    "display_model": "No-Img",
-    "input_prediction_shape": [
-      89600,
-      12
-    ],
-    "test_samples": 1119,
-    "removed_first_windows": 1,
-    "table_metrics": {
-      "mae": 10.805227678405197,
-      "rmse": 17.915663977589734,
-      "mape": 24.18627607338493
-    },
-    "recalculated_fp32": {
-      "mae": 10.805211067199707,
-      "rmse": 17.9158878326416,
-      "mape": 24.186275482177734
-    },
-    "recalculated_fp64": {
-      "mae": 10.805227678405195,
-      "rmse": 17.915663977589734,
-      "mape": 24.18627607338493
-    },
-    "best_epoch_recorded": 10,
-    "argmin_val_loss_epoch": 10,
-    "epochs_completed": 30,
-    "checkpoint": "save/hzmetro_no_img/10.pt",
-    "checkpoint_bytes": 14718453,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "hzmetro_no_img"
   },
   {
     "dataset": "HZMetro",
-    "run": "hzmetro_no_ts",
-    "display_model": "No-TS",
-    "input_prediction_shape": [
-      89600,
-      12
-    ],
-    "test_samples": 1119,
-    "removed_first_windows": 1,
-    "table_metrics": {
-      "mae": 13.541411442839337,
-      "rmse": 24.363999989221576,
-      "mape": 26.309861483531293
-    },
-    "recalculated_fp32": {
-      "mae": 13.541377067565918,
-      "rmse": 24.364030838012695,
-      "mape": 26.309860229492188
-    },
-    "recalculated_fp64": {
-      "mae": 13.54141144283934,
-      "rmse": 24.363999989221558,
-      "mape": 26.309861483531293
-    },
-    "best_epoch_recorded": 90,
-    "argmin_val_loss_epoch": 90,
-    "epochs_completed": 100,
-    "checkpoint": "save/hzmetro_no_ts/90.pt",
-    "checkpoint_bytes": 114277214,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "hzmetro_no_ts"
   },
   {
     "dataset": "HZMetro",
-    "run": "hzmetro_no_fuse",
-    "display_model": "No-Fuse",
-    "input_prediction_shape": [
-      89600,
-      12
-    ],
-    "test_samples": 1119,
-    "removed_first_windows": 1,
-    "table_metrics": {
-      "mae": 10.837217981942466,
-      "rmse": 18.038049461370907,
-      "mape": 24.628565245791943
-    },
-    "recalculated_fp32": {
-      "mae": 10.837223052978516,
-      "rmse": 18.038246154785156,
-      "mape": 24.62856674194336
-    },
-    "recalculated_fp64": {
-      "mae": 10.837217981942466,
-      "rmse": 18.038049461370907,
-      "mape": 24.628565245791943
-    },
-    "best_epoch_recorded": 10,
-    "argmin_val_loss_epoch": 10,
-    "epochs_completed": 30,
-    "checkpoint": "save/hzmetro_no_fuse/10.pt",
-    "checkpoint_bytes": 128994745,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "hzmetro_no_fuse"
   },
   {
     "dataset": "BJMetro",
-    "run": "bjmetro_no_img",
-    "display_model": "No-Img",
-    "input_prediction_shape": [
-      147936,
-      12
-    ],
-    "test_samples": 536,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 16.86,
-      "rmse": 29.96,
-      "mape": 18.3411
-    },
-    "recalculated_fp32": {
-      "mae": 16.860013961791992,
-      "rmse": 29.96004867553711,
-      "mape": 18.34113311767578
-    },
-    "recalculated_fp64": {
-      "mae": 16.860005938660407,
-      "rmse": 29.960151987251603,
-      "mape": 18.341132093533815
-    },
-    "best_epoch_recorded": 51,
-    "argmin_val_loss_epoch": 51,
-    "epochs_completed": 71,
-    "checkpoint": "save/bjmetro_no_img/51.pt",
-    "checkpoint_bytes": 18376245,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "bjmetro_no_img"
   },
   {
     "dataset": "BJMetro",
-    "run": "bjmetro_no_ts",
-    "display_model": "No-TS",
-    "input_prediction_shape": [
-      147936,
-      12
-    ],
-    "test_samples": 536,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 21.8774,
-      "rmse": 43.394,
-      "mape": 21.9914
-    },
-    "recalculated_fp32": {
-      "mae": 21.877382278442383,
-      "rmse": 43.39396286010742,
-      "mape": 21.991390228271484
-    },
-    "recalculated_fp64": {
-      "mae": 21.877480982916026,
-      "rmse": 43.39452739273138,
-      "mape": 21.991390826202515
-    },
-    "best_epoch_recorded": 93,
-    "argmin_val_loss_epoch": 93,
-    "epochs_completed": 100,
-    "checkpoint": "save/bjmetro_no_ts/93.pt",
-    "checkpoint_bytes": 121511966,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "bjmetro_no_ts"
   },
   {
     "dataset": "BJMetro",
-    "run": "bjmetro_no_fuse",
-    "display_model": "No-Fuse",
-    "input_prediction_shape": [
-      147936,
-      12
-    ],
-    "test_samples": 536,
-    "removed_first_windows": 0,
-    "table_metrics": {
-      "mae": 17.1449,
-      "rmse": 30.4105,
-      "mape": 18.8424
-    },
-    "recalculated_fp32": {
-      "mae": 17.14487648010254,
-      "rmse": 30.41054344177246,
-      "mape": 18.84243392944336
-    },
-    "recalculated_fp64": {
-      "mae": 17.14494625301005,
-      "rmse": 30.410697619438146,
-      "mape": 18.842432126909713
-    },
-    "best_epoch_recorded": 51,
-    "argmin_val_loss_epoch": 51,
-    "epochs_completed": 71,
-    "checkpoint": "save/bjmetro_no_fuse/51.pt",
-    "checkpoint_bytes": 139887289,
-    "environment": {
-      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
-      "is_virtual_env": false,
-      "torch_version": "2.11.0+cu128",
-      "cuda_available": true,
-      "torch_cuda_version": "12.8",
-      "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU"
-    },
-    "seed": "see original log",
-    "amp": "see original log"
+    "run": "bjmetro_no_fuse"
   }
 ]

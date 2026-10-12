@@ -90,7 +90,7 @@ def run_command(command, dry_run=False):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Run CWT-TSI Table 7 ablation experiments.")
+    parser = argparse.ArgumentParser(description="Run CWT-TSI branch and fusion ablation experiments.")
     parser.add_argument("--datasets", nargs="+", default=list(DATASET_TIME_SLOTS.keys()),
                         choices=list(DATASET_TIME_SLOTS.keys()))
     parser.add_argument("--modes", nargs="+", default=ABLATION_MODES, choices=ABLATION_MODES)
@@ -109,7 +109,6 @@ def parse_args():
     parser.add_argument("--rerun", action="store_true",
                         help="Run even if save/<dataset>_<mode>/metrics.json already exists.")
     parser.add_argument("--dry_run", action="store_true", help="Print commands without running them.")
-    parser.add_argument("--out_dir", type=str, default="outputs/ablation_table7")
     parser.add_argument("extra_train_args", nargs=argparse.REMAINDER,
                         help="Extra train.py arguments after --, e.g. -- --amp --num_workers 2")
     return parser.parse_args()
@@ -167,13 +166,6 @@ def main():
             )
             run_command(command, dry_run=args.dry_run)
 
-    summary_command = [
-        python_executable,
-        "summarize_experiments.py",
-        "--root", ".",
-        "--out_dir", args.out_dir,
-    ]
-    run_command(summary_command, dry_run=args.dry_run)
     return 0
 
 

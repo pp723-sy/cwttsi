@@ -11,5 +11,5 @@ for r in runs:
     mode=next((m for m in ['no_img','no_ts','no_fuse','full'] if r['run'].endswith('_'+m)),None)
     if mode is None:continue
     ds=r['dataset']
-    cmd=['python','train.py','--dataset_name',ds,'--run_name','replay_20261009_'+r['run'],'--history_step','12','--target_step','12','--batch_size','16','--num_epochs','100','--learning_rate','0.001','--early_stop_patience','20','--loss','Huber','--seed','1','--split_protocol','window_ratio','--ablation_mode',mode,'--time_slots_per_day','108' if ds=='BJMetro' else '216','--x_mode','cwt','--img_size','128','--loss_scale','raw','--amp','--num_workers','2']
+    cmd=['python','train.py','--dataset_name',ds,'--run_name','reproduce_'+r['run'],'--history_step','12','--target_step','12','--batch_size','16','--num_epochs','100','--learning_rate','0.001','--early_stop_patience','20','--loss','Huber','--seed','1','--split_protocol','window_ratio','--ablation_mode',mode,'--time_slots_per_day','108' if ds=='BJMetro' else '216','--x_mode','cwt','--img_size','128','--loss_scale','raw','--amp','--num_workers','2']
     print(' '.join(shlex.quote(c) for c in cmd))
